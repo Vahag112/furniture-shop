@@ -1,0 +1,31 @@
+.login{
+    padding: 70px 0px;
+
+    .container{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 20px;
+
+        input{
+            width: 300px;
+            padding: 5px;
+            font-size: 15px;
+        }
+
+        button{
+            padding: 5px 25px;
+            border-radius: 8px;
+
+        }
+    }
+}

@@ -1,0 +1,121 @@
+.detail {
+    padding: 70px 0px;
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+
+        .back{
+            background: transparent;
+            font-size: 20px;
+            font-weight: bold;
+            color: #D64D00;
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+            gap: 100px;
+            justify-content: start;
+        }
+
+        img {
+            width: 500px;
+            height: 600px;
+            border-radius: 8px;
+            box-shadow: 0 0 35px rgb(52, 13, 13);
+        }
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+
+            h2 {
+                font-size: 50px;
+                color: #D64D00;
+                font-weight: normal;
+            }
+
+
+
+            .prices {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+
+                .price {
+                    font-size: 30px;
+                }
+
+                .oldPrice {
+                    color: gray;
+                    text-decoration: line-through;
+                }
+            }
+
+            .content {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                padding: 5px;
+                border: 2px solid #D64D00;
+                border-radius: 10px;
+
+                span {
+                    font-size: 22px;
+                }
+
+                button {
+                    height: 40px;
+                    width: 40px;
+                    border-radius: 50%;
+                    font-size: 25px;
+                    background: #D64D00;
+                    color: white;
+                }
+            }
+
+
+            .add_btn {
+                width: 100%;
+                padding: 10px 0px;
+                font-size: 20px;
+                background: #D64D00;
+                color: white;
+                border-radius: 8px;
+            }
+        }
+
+        .box2{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            box-shadow: 0 0 20px #D64D00;
+            padding: 30px;
+            border-radius: 10px;
+
+
+            h3{
+                font-size: 35px;
+                color: #D64D00;
+            }
+
+            p{
+                font-size: 17px;
+                color: gray;
+                text-align: center;
+            }
+        }
+    }
+}

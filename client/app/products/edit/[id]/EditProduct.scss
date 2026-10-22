@@ -1,0 +1,53 @@
+.edit{
+    padding: 70px 0px;
+    
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+
+        h2{
+            font-size: 40px;
+            color: #FFEBD8;    
+        }
+
+        form{
+            display: flex;  
+            flex-direction: column;
+            padding: 20px;
+            border: 1px solid #000;
+            border-radius: 10px;
+            max-width: 300px;
+            width: 100%;
+            gap: 25px;
+
+            input{
+                padding: 5px;
+                font-size: 16px;
+                border-radius: 8px;
+                outline: none;
+                border: 1px solid black;
+            }
+
+            button{
+                padding: 5px;
+                font-size: 16px;
+                border-radius: 8px;
+                background: rgb(32, 69, 108);
+                color: white;
+                border: 1px solid rgb(32, 69, 108);
+                transition: .2s;
+
+                &:hover{
+                    background: transparent;
+                    color: rgb(32, 69, 108);
+                }
+            }
+
+
+        }
+    }
+}

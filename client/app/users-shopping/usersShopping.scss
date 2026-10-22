@@ -1,0 +1,88 @@
+.users_shopping {
+    padding: 70px 0px;
+    min-height: 100dvh;
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 30px;
+    }
+
+
+    .content {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+    .item {
+        display: flex;
+        width: 100%;
+        padding: 30px 20px;
+        align-items: center;
+        justify-content: start;
+        gap: 40px;
+        background: rgb(197, 190, 165);
+        border-radius: 10px;
+        position: relative;
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+
+            label {
+                color: rgb(75, 69, 69);
+            }
+
+            h3 {
+                font-weight: normal;
+            }
+        }
+    }
+
+
+    .shopping {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transform: translateY(-15px);
+        transition: max-height 0.5s ease, opacity 0.3s ease, transform 0.4s ease;
+        pointer-events: none;
+
+        .box {
+            background: #f5f3ed;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 50px;
+
+            h3{
+                font-weight: normal;
+            }
+        }
+    }
+
+    .shopping.active {
+        max-height: 1000px;
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+
+}

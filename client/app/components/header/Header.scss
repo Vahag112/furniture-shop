@@ -1,0 +1,62 @@
+header{
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 35px gray;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    background: white;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 52px;
+            a{
+                font-size: 20px;
+                color: black;
+            }
+        }
+
+        .item{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 14px;
+            
+            a{
+                color: black;
+
+                .avatar{
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                }
+                button{
+                    padding: 5px 25px;
+                    border-radius: 8px;
+                    background: gray;
+                    color: white;
+                }
+            }
+
+
+            .logout{
+                background: transparent;
+                svg{
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+    }
+}
